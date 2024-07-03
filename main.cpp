@@ -42,9 +42,11 @@ int main() {
             msleep(100);
             ccout("3: How to add a command (Shows a guide on how to add a command)\n");
             msleep(100);
-            ccout("4: Base64 encode (encodes text)\n");
+            ccout("4: Base64 encode (Encodes text)\n");
             msleep(100);
-            ccout("5: Base64 decode (decodes text)\n");
+            ccout("5: Base64 decode (Decodes text)\n");
+            msleep(100);
+            ccout("6: Credits (Shows credits and other stuff)\n");
         }
 
         else if (lowercmd == "how to add a command") {
@@ -93,6 +95,12 @@ int main() {
             getline(cin, decodestring);
             cout << base64decode(decodestring);
             cout << "\n";
+        }
+
+        else if (lowercmd == "credits") {
+            ccout("Puppet: https://thepuppet57.141412.xyz");
+            ccout("C-Bos: https://github.com/Thepuppetqueen57/C-Bos");
+            ccout("C-Bos Legacy: https://github.com/Thepuppetqueen57/C-Bos-Legacy")
         }
 
 

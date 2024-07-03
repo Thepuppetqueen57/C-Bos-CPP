@@ -5,6 +5,8 @@
 
  This probably will almost never get updated btw
 
+ Make sure to go check out [the main C-Bos](https://github.com/Thepuppetqueen57/C-Bos)
+
 # How to use
  If you dont want to compile from source then just download the latest version and run the exe
 
