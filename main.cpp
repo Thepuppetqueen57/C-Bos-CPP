@@ -47,6 +47,8 @@ int main() {
             ccout("5: Base64 decode (Decodes text)\n");
             msleep(100);
             ccout("6: Credits (Shows credits and other stuff)\n");
+            msleep(100);
+            ccout("7: Cbos versions (Lists the versions of C-Bos available)\n");
         }
 
         else if (lowercmd == "how to add a command") {
@@ -101,6 +103,12 @@ int main() {
             ccout("Puppet: https://thepuppet57.141412.xyz");
             ccout("C-Bos: https://github.com/Thepuppetqueen57/C-Bos");
             ccout("C-Bos Legacy: https://github.com/Thepuppetqueen57/C-Bos-Legacy");
+        }
+
+        else if (lowercmd == "cbos versions") {
+            ccout("First theres cbos legacy. This is the first version of cbos ever. It was made in python\n");
+            ccout("Then there was this version called cbos c++ which didnt last long.\n");
+            ccout("Now there is the current version of cbos. Made in python.\n");
         }
 
 
