@@ -100,7 +100,7 @@ int main() {
         else if (lowercmd == "credits") {
             ccout("Puppet: https://thepuppet57.141412.xyz");
             ccout("C-Bos: https://github.com/Thepuppetqueen57/C-Bos");
-            ccout("C-Bos Legacy: https://github.com/Thepuppetqueen57/C-Bos-Legacy")
+            ccout("C-Bos Legacy: https://github.com/Thepuppetqueen57/C-Bos-Legacy");
         }
 
 
