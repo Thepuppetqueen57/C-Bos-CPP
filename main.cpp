@@ -2,18 +2,22 @@
 #include <string>
 #include <algorithm>
 #include "lib/cboslib.hpp"
+#include "lib/httplib.h"
 
 using namespace std;
 
 int main() {
     ccout("Booting cbos the crappy os\n");
     msleep(500);
+    ccout("Checking for updates\n");
+    float version = 1.10;
+    ccout(versioncheck(version));
+    msleep(500);
     ccout("Loading libraries and variables\n");
-    float version = 1.01;
     msleep(300);
     ccout("Done!\n");
     msleep(200);
-    ccout("Welcome to C-Bos v1.0.1!\n");
+    ccout("Welcome to C-Bos v1.1.0!\n");
     msleep(200);
     ccout("Type help for a list of commands!\n");
 

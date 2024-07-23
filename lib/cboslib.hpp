@@ -10,6 +10,7 @@
 #include <ctime>
 #include <iostream>
 #include <stdexcept>
+#include "httplib.h"
 
 using namespace std;
 
@@ -95,6 +96,32 @@ inline string base64decode(const string &text) {
         }
     }
     return decoded;
+}
+
+inline string versioncheck(float version) {
+    httplib::Client cli("http://thepuppet57.alwaysdata.net");
+
+    httplib::Headers params{
+        {"edition", "cpp"}
+    };
+
+    auto res = cli.Get("/tps/cbos/backend/versioncheck.php?edition=cpp");
+
+    if (res) {
+        float latestversion = stof(res->body);
+        
+        if(latestversion > version) {
+            return "Update available!\n";
+        } else if(latestversion < version) {
+            return "This is a beta!\n";
+        } else if(latestversion == version) {
+            return "No updates available!\n";
+        } else {
+            return "Response or local version wasnt a float\n";
+        }
+    } else {
+        return "Error: " + to_string(res.error());
+    }
 }
 
 #endif // CBOS_HPP
