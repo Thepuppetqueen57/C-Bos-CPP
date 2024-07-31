@@ -104,13 +104,13 @@ int main() {
         }
 
         else if (lowercmd == "credits") {
-            ccout("Puppet: https://thepuppet57.141412.xyz");
-            ccout("C-Bos: https://github.com/Thepuppetqueen57/C-Bos");
-            ccout("C-Bos Legacy: https://github.com/Thepuppetqueen57/C-Bos-Legacy");
+            ccout("Puppet: https://thepuppet57.alwaysdata.net\n");
+            ccout("C-Bos: https://github.com/Thepuppetqueen57/C-Bos\n");
+            ccout("C-Bos Legacy: https://github.com/Thepuppetqueen57/C-Bos-Legacy\n");
         }
 
         else if (lowercmd == "cbos versions") {
-            ccout("First theres cbos legacy. This is the first version of cbos ever. It was made in python\n");
+            ccout("First theres cbos legacy. This is the first version of cbos ever. It was made in python.\n");
             ccout("Then there was this version called cbos c++ which didnt last long.\n");
             ccout("Now there is the current version of cbos. Made in python.\n");
         }

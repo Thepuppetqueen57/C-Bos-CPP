@@ -22,7 +22,6 @@ inline string randomcolor() {
     static const vector<string> color_choices = {
         "\033[31m",  // RED
         "\033[32m",  // GREEN
-        "\033[33m",  // YELLOW
         "\033[34m",  // BLUE
         "\033[35m",  // MAGENTA
         "\033[36m",  // CYAN
@@ -31,7 +30,6 @@ inline string randomcolor() {
         "\033[92m",  // LIGHTGREEN_EX
         "\033[95m",  // LIGHTMAGENTA_EX
         "\033[91m",  // LIGHTRED_EX
-        "\033[93m"   // LIGHTYELLOW_EX
     };
     static bool initialized = false;
     if (!initialized) {
