@@ -8,7 +8,7 @@
  Make sure to go check out [the main C-Bos](https://github.com/Thepuppetqueen57/C-Bos)
 
 # How to use
- If you dont want to compile from source then just download the latest version and run the exe
+ If you dont want to compile from source then just install gcc then download the latest version of cbos-cpp and run the exe
 
  Then type `help`
 
@@ -18,3 +18,6 @@
  Then run `g++ main.cpp -o main -lws2_32` in the cbos dir and it should be compiled!
 
  Also the exe only works on windows and I'm using a windows only lib to make httplib work sorry.
+
+# Gcc
+ Gcc is required to run this program. It has libraries that come with it that cbos-cpp needs.
