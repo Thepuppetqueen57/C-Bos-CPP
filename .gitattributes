@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Makes the github language graph ignore httplib
+lib/httplib.h linguist-vendored
