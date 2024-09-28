@@ -21,3 +21,8 @@
 
 # Gcc
  Gcc is required to run this program. It has libraries that come with it that cbos-cpp needs.
+
+# Discontinued
+ C-Bos C++ has been discontinued as of september 16th 2024.
+
+It got discontinued because on that date I switched to linux and this is windows only.
