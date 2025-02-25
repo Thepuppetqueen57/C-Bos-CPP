@@ -26,3 +26,10 @@
  C-Bos C++ has been discontinued as of september 16th 2024.
 
 It got discontinued because on that date I switched to linux and this is windows only.
+
+# Edit
+ I don't feel like changing the readme so imma just add this at the bottom.
+
+ This isn't windows only. It literally takes less effort to compile it on linux in fact.
+
+ Still discontinued tho cuz I lost interest and I use rust now arhahrhahrh.
